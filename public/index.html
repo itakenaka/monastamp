@@ -1,7 +1,27 @@
 <!DOCTYPE html>
-<html>
-<head></head>
+<html lang="ja">
+<head>
+<title>Time Stamper</title>
+</head>
 <body>
-<h1>Hello world hoge</h1>
+<form>
+    <input type="file" id="fileinput">
+</form>
+
+sha256sum: <div id="sha256sum"></div>
+<section>
+<h1>monacoin</h1>
+<p>WIF: <span id="monawif"></span></p>
+<p>address: <span id="monaaddress"></span></p>
+</section>
+
+<section>
+<h1>bitcoin</h1>
+<p>WIF: <span id="btcwif"></span></p>
+<p>address: <span id="btcaddress"></span></p>
+</section>
+
+<script type="text/javascript" src="file.js"></script>
+
 </body>
 </html>
